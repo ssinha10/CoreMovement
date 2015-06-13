@@ -13,6 +13,7 @@
 		0DA7ABB21B29022A00E6C3D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA7ABB11B29022A00E6C3D8 /* Images.xcassets */; };
 		0DA7ABB51B29022A00E6C3D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DA7ABB31B29022A00E6C3D8 /* LaunchScreen.xib */; };
 		0DA7ABC11B29022A00E6C3D8 /* CoreMovementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7ABC01B29022A00E6C3D8 /* CoreMovementTests.swift */; };
+		0DA7ABCB1B290B2A00E6C3D8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA7ABCA1B290B2A00E6C3D8 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0DA7ABBA1B29022A00E6C3D8 /* CoreMovementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMovementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA7ABBF1B29022A00E6C3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DA7ABC01B29022A00E6C3D8 /* CoreMovementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMovementTests.swift; sourceTree = "<group>"; };
+		0DA7ABCA1B290B2A00E6C3D8 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA7ABCB1B290B2A00E6C3D8 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +93,7 @@
 		0DA7ABA81B29022A00E6C3D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0DA7ABCA1B290B2A00E6C3D8 /* CoreMotion.framework */,
 				0DA7ABA91B29022A00E6C3D8 /* Info.plist */,
 			);
 			name = "Supporting Files";
